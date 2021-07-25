@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#intro .intro-image {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/hero-image.png');
+    background-size: 100% 100vh;
+}
+
+#intro .intro-image .overlay-dark {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #2b29299a;
+}
+
+#tasks .about-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 3%;
+}
+
+#promote .card img {
+    height: 100%;
+    width: 100%;
+}
+
+#promote .card .text-change {
+    font-size: 30px;
+    font-weight: 600;
+    /* font-family: 'Faster One', cursive; */
+}
+
+#promote .card a:visited {
+    color: rgb(255, 255, 255);
+}
+
+#promote .card a:hover {
+    color: #222;
+}
+
+.activities {
+    background: #222;
+    padding-top: 20px;
+}
+
+.activities .activities-header {
+    font-family: 'Copperplate', fantasy;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.activities .activities-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 3%;
+}
+
+.activities .activities-container .activities-ul {
+    font-size: 20px;
+    color: #cacaca;
+}
